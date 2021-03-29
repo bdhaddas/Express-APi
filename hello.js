@@ -29,7 +29,7 @@ function addWord(request, response) {
     }
 }
 response.send(reply);
-}
+
 
 app.get('/all', sendAll);
 function sendAll(request, response) {

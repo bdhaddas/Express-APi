@@ -1,11 +1,10 @@
-var words = {
-    "Munisha": 2,
-    "Balraj": 5,
-    "Mahbub": 9,
-}
-console.log('Node works!');
+var fs = require
+var words = loadJSON('words.json');
+
+console.log('Server is loading ...');
 
 const { response } = require('express');
+
 var express = require('express');
 
 var app = express();
